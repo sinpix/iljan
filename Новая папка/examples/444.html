@@ -1,14 +1,26 @@
-<!DOCTYPE html>
-<<!DOCTYPE html>
-<html lang="en">
+<<!doctype html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <title> web</title>
+    <title>Example 1</title>
   </head>
   <body>
-    webcontent
-    </body>
-    <script>
-      //put your JS here
-      </script>
+    Document
+  </body>
+  <script>
+    /*
+       This is a simple
+       example of a multi-line
+       comment
+    */
+    let name = 'Dmitry';
+    // alternative version:
+    // alert(greeting + ' ' + name);
+
+    function hi(name) {
+      let greeting = 'hello ';
+      alert(greeting + name);
+    }
+    hi('World');
+    hi(name);
+  </script>
 </html>
